@@ -1,4 +1,4 @@
-package chapter1.problem2;
+package chapter1.problem10;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
