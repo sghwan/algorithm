@@ -7,14 +7,17 @@ import java.util.StringTokenizer;
 
 public class Main {
     static int n, m;
+    static int[] pm;
 
-    public static void dfs(int count, StringBuilder comb) {
-        if (count == m) {
-            System.out.println(comb);
+    public static void dfs(int l) {
+        if (l == m) {
+            StringBuilder sb = new StringBuilder();
+            for (int x : pm)  sb.append(x).append(" ");
+            System.out.println(sb);
         } else {
             for (int i = 1; i <= n; i++) {
-                dfs(count + 1, comb.append(i).append(" "));
-                comb.delete(comb.length() - 3, comb.length() - 1);
+                pm[l] = i;
+                dfs(l + 1);
             }
         }
     }
@@ -24,9 +27,10 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
+        pm = new int[m];
 
         for (int i = 1; i <= n; i++) {
-            dfs(1, new StringBuilder().append(i).append(" "));
+            dfs(0);
         }
     }
 }
