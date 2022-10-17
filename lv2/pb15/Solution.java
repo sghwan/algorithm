@@ -1,5 +1,8 @@
 package lv2.pb15;
 
+/**
+ * 점프와 순간 이동
+ */
 public class Solution {
     public int solution(int n) {
         int ans = 0;

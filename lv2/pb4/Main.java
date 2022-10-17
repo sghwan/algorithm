@@ -1,5 +1,8 @@
 package lv2.pb4;
 
+/**
+ * 올바른 괄호
+ */
 class Solution {
     boolean solution(String s) {
         boolean answer = false;

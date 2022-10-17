@@ -2,6 +2,9 @@ package lv2.pb12;
 
 import java.util.Arrays;
 
+/**
+ * 구명보트
+ */
 class Solution {
     public int solution(int[] people, int limit) {
         int answer = 0;

@@ -1,5 +1,8 @@
 package lv2.pb16;
 
+/**
+ * [1차] 캐시
+ */
 class Solution {
     public int solution(int cacheSize, String[] cities) {
         if(cacheSize == 0) return cities.length * 5;

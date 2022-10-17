@@ -1,20 +1,24 @@
 package lv2.pb9;
 
-class Solution {
-    public int[] solution(int brown, int yellow) {
-        int[] answer = {0, 0};
+/**
+ * 짝지어 제거하기
+ */
+import java.util.Stack;
 
-        for (int height = 1; height * height <= yellow; height++) {
-            if(yellow % height == 0) {
-                int width = yellow / height;
-                int requiredBrown = 2 * height + 2 * width + 4;
-                if(requiredBrown == brown) {
-                    answer[0] = width + 2;
-                    answer[1] = height + 2;
-                    break;
-                }
-            }
+class Solution
+{
+    public int solution(String s)
+    {
+        int answer = -1;
+        Stack<Character> stack = new Stack<>();
+
+        for (int i = 0; i < s.length(); i++) {
+            if(!stack.empty() && (stack.peek() == s.charAt(i))) stack.pop();
+            else stack.push(s.charAt(i));
         }
+
+        if(stack.empty()) answer = 1;
+        else answer = 0;
 
         return answer;
     }

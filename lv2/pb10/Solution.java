@@ -3,6 +3,9 @@ package lv2.pb10;
 import java.util.Map;
 import java.util.HashMap;
 
+/**
+ * 영어 끝말잇기
+ */
 class Solution {
     public int[] solution(int n, String[] words) {
         int[] answer = { 0, 0 };

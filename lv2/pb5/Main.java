@@ -1,5 +1,8 @@
 package lv2.pb5;
 
+/**
+ * 숫자의 표현
+ */
 class Solution {
     public int solution(int n) {
         int answer = 0;

@@ -1,5 +1,8 @@
 package lv2.pb6;
 
+/**
+ * 피보나치 수
+ */
 class Solution {
     static long[] fibo;
 

@@ -2,6 +2,9 @@ package lv2.pb3;
 
 import java.util.Arrays;
 
+/**
+ * 최솟값 만들기
+ */
 class Solution
 {
     public int solution(int []A, int []B)

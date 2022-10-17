@@ -1,5 +1,8 @@
 package lv2.pb13;
 
+/**
+ * 예상 대진표
+ */
 class Solution
 {
     public int solution(int n, int a, int b)

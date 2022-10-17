@@ -1,5 +1,8 @@
 package lv2.pb8;
 
+/**
+ * 카펫
+ */
 class Solution {
     public int[] solution(int brown, int yellow) {
         int[] answer = {0, 0};

@@ -1,5 +1,8 @@
 package lv2.pb14;
 
+/**
+ * 멀리 뛰기
+ */
 class Solution {
     public long solution(int n) {
         long answer = 0;

@@ -1,5 +1,8 @@
 package lv2.pb7;
 
+/**
+ * 다음 큰 숫자
+ */
 class Solution {
 
     public int countOne(int n) {

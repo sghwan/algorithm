@@ -5,6 +5,9 @@ import java.io.InputStreamReader;
 import java.io.FileInputStream;
 import java.util.StringTokenizer;
 
+/**
+ * swea [모의] 이상한 자석
+ */
 public class Solution {
     static int[][] magnet;
 

@@ -2,6 +2,9 @@ package lv2.pb1;
 
 import java.util.Arrays;
 
+/**
+ * 최댓값과 최솟값
+ */
 class Solution {
     public String solution(String s) {
         String[] str = s.split(" ");

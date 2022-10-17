@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 import java.io.FileInputStream;
 
+/**
+ * swea [모의] 요리사
+ */
 class Solution {
     static int[][] food;
     static boolean[] visited;

@@ -2,6 +2,9 @@ package lv2.pb18;
 
 import java.util.Stack;
 
+/**
+ * 괄호 회전하기
+ */
 class Solution {
     public int checkBracket(String s) {
         Stack<Character> stack = new Stack<>();
